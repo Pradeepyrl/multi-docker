@@ -1,0 +1,8 @@
+# MacOS specifics
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode
+.vscode/*
+.devcontainer/*
