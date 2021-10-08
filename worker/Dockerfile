@@ -6,7 +6,7 @@ COPY package.json .
 # RUN npm i -g npm@latest --verbose
 RUN npm config set strict-ssl false
 RUN npm set registry http://registry.npmjs.org/
-RUN npm install --verbose
+RUN npm install
 
 COPY . .
 

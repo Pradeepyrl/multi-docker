@@ -5,7 +5,7 @@ WORKDIR /app
 COPY package.json .
 RUN npm config set strict-ssl false
 RUN npm set registry http://registry.npmjs.org/
-RUN npm install --verbose
+RUN npm install
 COPY . .
 RUN npm run build
 
